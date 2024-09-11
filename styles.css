@@ -1,0 +1,634 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.intro-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 2s ease-out;
+}
+
+.intro-content {
+    max-width: 50%;
+}
+
+.intro-content h2 {
+    margin-top: 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+.intro-content p {
+    line-height: 1.6;
+    color: #666;
+}
+
+.intro-image img {
+    max-width: 40%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.intro-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 2s ease-out;
+    position: relative;
+}
+
+.intro-content {
+    max-width: 50%;
+}
+
+.intro-content h2 {
+    margin-top: 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+.intro-content p {
+    line-height: 1.6;
+    color: #666;
+}
+
+.intro-image {
+    max-width: 40%;
+    position: absolute;
+    right: 0;
+
+    transform: translateX(40%);
+}
+
+.intro-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.intro-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+    transition: box-shadow 0.3s ease; /* Smooth transition on hover */
+}
+
+.intro-image img:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+}
+
+.rad{
+    color: rgba(234, 3, 3, 0.1); /* Red color for the specific text */
+    font-weight: bold;
+}
+
+/* =================================================================*/
+.education-section {
+    padding: 2rem;
+    background: #fff; /* White background for the section */
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Shadow for section */
+    margin-bottom: 2rem;
+    animation: fadeIn 2s ease-out; /* Consistent animation */
+}
+
+.education-section h2 {
+    font-size: 2rem;
+    color: #e60012; /* Red color for headings */
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.education-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: #f9f9f9; /* Light grey background for each item */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education-item-image {
+    flex: 0 0 150px; /* Fixed width for the image */
+    margin-right: 1rem;
+}
+
+.education-item-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.education-item-details {
+    flex: 1; /* Takes up remaining space */
+}
+
+.education-item-details h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.education-item-details p {
+    margin: 0.5rem 0;
+    color: #666;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Ensure to include a modern font in your HTML head or CSS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.skills-section {
+    padding: 2rem;
+    background: linear-gradient(135deg, #f4f4f4, #ffffff);
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    margin-bottom: 2rem;
+    animation: fadeIn 2s ease-out;
+}
+
+.skills-section h2 {
+    font-size: 2.2rem;
+    color: #e60012; /* Red color for headings */
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.skill-item {
+    flex: 1 1 250px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #e60012; /* Red border */
+}
+
+.skill-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.skill-item h3 {
+    margin-top: 0;
+    font-size: 1.6rem;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.skill-item ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skill-item ul li {
+    margin: 0.5rem 0;
+    color: #666;
+    font-family: 'Poppins', sans-serif;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.project-showcase-section {
+    padding: 2rem;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    margin-bottom: 2rem;
+}
+
+.project-showcase-section h2 {
+    font-size: 2.2rem;
+    color: #e60012; /* Red color for headings */
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.project-item {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.project-item h3 {
+    margin: 0.5rem;
+    font-size: 1.6rem;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.project-item p {
+    margin: 0.5rem;
+    color: #666;
+    font-family: 'Poppins', sans-serif;
+}
+
+.project-link {
+    display: block;
+    margin: 0.5rem;
+    color: #e60012;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+.project-link:hover {
+    color: #c4000f;
+}
+
+.project-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+/* Ensure the footer has a distinct style */
+footer {
+    padding: 1rem;
+    background-color: #333; /* Dark background for footer */
+    color: #fff; /* Light text color */
+    text-align: center;
+    position: relative;
+    margin-top: auto; /* Pushes the footer to the bottom */
+    width: 100%;
+}
+
+footer a {
+    color: #e60012; /* Red color for links */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.project-showcase-section {
+    padding: 2rem;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    margin-bottom: 2rem;
+}
+
+.project-showcase-section h2 {
+    font-size: 2.2rem;
+    color: #e60012; /* Red color for headings */
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.project-item {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.project-item h3 {
+    margin: 0.5rem;
+    font-size: 1.6rem;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.project-item p {
+    margin: 0.5rem;
+    color: #666;
+    font-family: 'Poppins', sans-serif;
+}
+
+.project-link {
+    display: block;
+    margin: 0.5rem;
+    color: #e60012;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+.project-link:hover {
+    color: #c4000f;
+}
+
+.project-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.contact-section {
+    padding: 2rem;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    margin-bottom: 2rem;
+}
+
+.contact-section h2 {
+    font-size: 2.2rem;
+    color: #e60012; /* Red color for headings */
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #e60012; /* Red color for focus state */
+    outline: none;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #e60012; /* Red color for button */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #c4000f; /* Darker red for hover */
+}
+footer {
+    padding: 1rem;
+    background-color: #333; /* Dark background for footer */
+    color: #fff; /* Light text color */
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.footer-content p {
+    margin: 0.5rem 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-content a {
+    color: #e60012; /* Red color for links */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.social-media-links {
+    margin: 1rem 0;
+}
+
+.social-media-links a {
+    margin: 0 0.5rem;
+    display: inline-block;
+}
+
+.social-media-links img {
+    width: 24px; /* Adjust size of social media icons */
+    height: auto;
+    vertical-align: middle;
+    transition: opacity 0.3s ease;
+}
+
+.social-media-links a:hover img {
+    opacity: 0.8; /* Slightly change opacity on hover */
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes full height */
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    flex: 1; /* Allows main content to expand and push footer down */
+    padding-bottom: 2rem; /* Ensure space for footer */
+}
+.contact-form h2 {
+    font-size: 2.2rem;
+    color: #e60012; /* Red color for headings */
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+footer {
+    padding: 1rem;
+    background-color: #333; /* Dark background for footer */
+    color: #fff; /* Light text color */
+    text-align: center;
+    width: 100%;
+    position: relative;
+    margin-top: 2rem; /* Space between content and footer */
+}
+.contact-section {
+    padding: 2rem;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    margin-bottom: 2rem; /* Ensure space below the contact section */
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form .form-group {
+    margin-bottom: 1rem;
+}
+
+
+/* Example CSS to ensure chatbot is in the right corner */
+
